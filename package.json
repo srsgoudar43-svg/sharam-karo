@@ -1,0 +1,13 @@
+{
+  "name": "crop-advisory-assistant-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack AI-Powered Agriculture Crop Advisory Assistant",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "build": "npm run build:server && npm run build:client"
+  }
+}
